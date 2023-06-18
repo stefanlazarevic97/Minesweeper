@@ -56,3 +56,6 @@ if $PROGRAM_NAME == __FILE__
         YAML.load_file(ARGV.shift).play
     end
 end
+
+g = Game.new(9)
+g.play

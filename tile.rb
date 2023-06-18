@@ -35,7 +35,7 @@ class Tile
     end
 
     def inspect
-        { pos: pos, bombed: bombed?. flagged: flagged?, explored: explored? }.inspect
+        { pos: pos, bombed: bombed?, flagged: flagged?, explored: explored? }.inspect
     end
 
     def neighbors

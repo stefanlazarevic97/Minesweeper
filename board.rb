@@ -10,8 +10,7 @@ class Board
     end
 
     def [](pos)
-        pos[0] = row
-        pos[1] = col
+        row, col = pos
         @grid[row][col]
     end
 
